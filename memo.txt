@@ -299,10 +299,70 @@
         transition:all 3s ease-in-out     모든변화가 3초에 걸쳐 서서히 변함 
 
 =================================================
+
+#4.1
+    linear, ease-in, ease-out, ease-in-out 관련 설명
+        https://matthewlein.com/tools/ceaser 
+
 =================================================
+
+#4.2
+    transformation 설명
+        해당 태그의 기울기,각도등을 변형
+    property
+        transform:rotateX/Y/Z(90deg)    x/y/z축으로 90도 기울임  
+        transform:scaleX/Y/Z(2)     x/y/z방면으로 2배 커짐
+        transform:translateX/Y/Z(10px)    x/y/z방향으로 10px 이동
+
 =================================================
+
+#4.3
+    animation 사용법
+        @keyframes superSexyAnimation {
+            from{
+                transform:rotateX(0deg)
+            }
+            to{
+                transform:rotateX(360deg)
+            }
+        }
+        img {
+            animation :superSexyAnimation 5 s ease-in-out infinite
+        }
+
 =================================================
+
+#4.4
+    css 애니메이션 테스트 사이트
+        https://animista.net/
+    animation 사용법
+        @keyframes superSexyAnimation {
+            0%{
+                transform:rotateX(0deg)
+            }
+            50%{
+                transform:rotateX(180deg)
+            }
+            100%{
+                tranform:rotateX(0deg)
+            }
+        }
+        img {
+            animation :superSexyAnimation 5 s ease-in-out infinite
+        }
+
 =================================================
+
+#4.5
+    mediaQuery 설명
+        mediaQuery는 사용자의 스크린의 크기를 알아내는 방법
+    mediaQuery 사용법
+        @media screen and (min-width:600px) and (max-width:800px) and (orientation:landscape(portrait)){
+            p{
+                color:tamato
+            }
+        } 
+
 =================================================
 =================================================
 =================================================
