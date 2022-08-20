@@ -383,11 +383,66 @@
 
 #6.2
     BEM 설명
+
 =================================================
+
+#6.3
+    fontawesome 설명
+        1.  https://fontawesome.com/kits/ba5ad1660a/use 여기서 kit code 복사 후 </body>태그의 바로위에 붙혀넣기
+        2.  원하는 이미지 5.15.4version 검색후 원하는 위치에 태그 복붙
+
 =================================================
+
+#6.4
+    index.html 작성 
+        <div id="status-bar"> 작성
+        <header class="welcome-header"> 작성
+        <form id="login-form"> 작성
+            input 속성
+                type = text, password, submit
+                value 
+                placeholder
+
 =================================================
+
+#6.5
+    css폴더 생성
+        style.css 작성
+            css hack 
+                상단 상태바를 가운데로 정렬하는법
+            property 
+                fon-family:apple-system... 글꼴변경
+            
+    index.html 작성
+        link:css 하면 css link가 생김
+        fa-batterty-full클래스에 fa-lg 추가 (fontawesome이미지의 크기 변경)
+    google Fonts 설명
+    
 =================================================
+
+#6.6
+    reset css 설명
+        https://meyerweb.com/eric/tools/css/reset/
+        css폴더에 reset.css 만들고 reset.css에 reset 코드를 복붙하고 style.css에서 @import "reset.css"해주면 끝!
+    style.css 수정
+        @import "reset.css"
+        .welcome-header{}
+        .welcome-header__title{}
+        .welcome-header__text{}
+    status-bar.css 생성
+        status-bar관련 css들 작성하는곳
+
 =================================================
+
+#6.7
+    variable.css 작성
+        variable.css 에는 css변수작성
+    style.css 수정  
+        #login-form{}
+        #login-form input{}
+        #login-form input::placeholder{}
+        #login-form input:focus{}
+
 =================================================
 =================================================
 =================================================
