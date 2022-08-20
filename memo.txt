@@ -457,6 +457,18 @@
         #login-form a{}
 
 =================================================
+
+#6.9
+    components 폴더 생성
+        statusbar.css 이동
+    screens 폴더 생성
+        login.css 파일 생성
+            login화면관련 css작성
+    index.html 파일 수정 
+        <form id="login-form">에 action, method추가
+        text/password input에 name 추가
+    friends.html 파일 생성
+    
 =================================================
 =================================================
 =================================================
