@@ -451,7 +451,10 @@
     property
         cursor:pointer/progress  커서변경
         color:inherit   inherit는 부모의 속성을 상속받는다는 뜻
-
+    style.css 수정
+        #login-form input:not([type="submit"]){}
+        #login-form input[type="submit"]{}
+        #login-form a{}
 
 =================================================
 =================================================
