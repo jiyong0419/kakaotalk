@@ -552,7 +552,7 @@
 
 #6.18
     friends.html 파일 수정
-        <h4 class="user-component__name user-component__name--not-bold">Channel</h4> 추가
+        <h4 class="user-component__name user-component__name--not-bold">
     friends.css 파일 수정
         .friends-screen{}
         .friends-screen__channel{}
@@ -571,6 +571,15 @@
         .main-screen{}
 
 =================================================
+
+#6.20
+    notification.css 파일 생성
+        .notification{}
+    chat.html 파일 수정
+        < class="user-component__time">
+        <span class="user-component__notification notification">
+    user-component.css 파일 수정
+        .user-component__time{}
 =================================================
 =================================================
 =================================================
