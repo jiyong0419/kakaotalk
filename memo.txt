@@ -547,8 +547,22 @@
     user-component.css 파일 수정
         .friends-screen{}
         .user-component__avatar--xl{}
-        
+
 =================================================
+
+#6.18
+    friends.html 파일 수정
+        <h4 class="user-component__name user-component__name--not-bold">Channel</h4> 추가
+    friends.css 파일 수정
+        .friends-screen{}
+        .friends-screen__channel{}
+        .friends-screen__channel-header{}
+    user-component.css 파일 수정
+        .user-component{}
+        .user-component__comlumn:last-child{}
+        .user-component__avatar--sm{}
+        .user-component__name--not-bold{}
+        
 =================================================
 =================================================
 =================================================
