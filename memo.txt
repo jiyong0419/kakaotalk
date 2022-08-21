@@ -513,5 +513,16 @@
         .screen-header{}
         .screen-header__title{}
         .screen-header__icons span{}
+
 =================================================
+
+#6.15
+    friends.html 파일 수정
+        <a id="friends-display-link"> 추가
+    style.css 파일 수정
+        body{ color:#2e363e }
+    friends.css 파일 생성
+        #friends-display-link{}
+        #frineds-display-link i{}
+
 =================================================

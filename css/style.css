@@ -7,8 +7,10 @@
 @import "components/screen-header.css";
 
 @import "screens/login.css";
+@import "screens/friends.css";
 body{
     font-family: 'Open Sans', sans-serif;
+    color: #2e363e;
 }
 
 .welcome-header {
