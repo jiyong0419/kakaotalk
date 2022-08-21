@@ -1,3 +1,6 @@
+.friends-screen{
+    padding: 0px var(--horizontal-space);
+}
 .user-component,
 .user-component__comlumn:first-child{
     display: flex;
@@ -6,15 +9,20 @@
 .user-component__avatar{
     width: 70px;
     height: 70px;
-    border-radius: 25px;
     margin-right: 20px;
+    border-radius: 30px;
+    margin-left: var(--horizontal-space);
 }
 .user-component__name{
     font-weight: 600;
-    font-size: 22 px;
+    font-size: 22px;
 }
 .user-component__description{
     margin-top:8px;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
+}
+.user-component__avatar--xl{
+    width: 80px;
+    height: 80px;
 }
