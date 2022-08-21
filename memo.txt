@@ -526,3 +526,12 @@
         #frineds-display-link i{}
 
 =================================================
+
+#6.16
+    friends.html 파일 수정
+        <div class="user-component"> 추가
+    user-components.css 파일 생성
+        .user-component,.user-component__comlumn:first-child{}
+        .user-component__avatar{}
+        .user-component__name{}
+        .user-component__description{}
