@@ -495,6 +495,23 @@
     box-sizing:border-box를 사용하면 width:90px padding-left:10px이 된다
 
 =================================================
+
+#6.13
+    friends.html 파일 수정
+        <span class="nav__notification> 추가
+    nav_bar.css 파일 수정
+        .nav__link
+        .nav__notification
+        .nav__btn:last-child .nav__link .nav__notification
+
 =================================================
+
+#6.14
+    friends.html 파일 수정
+        <header> 추가
+    screen-header.css 파일 생성
+        .screen-header{}
+        .screen-header__title{}
+        .screen-header__icons span{}
 =================================================
 =================================================
