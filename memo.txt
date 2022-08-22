@@ -710,8 +710,19 @@
         .message__info{}
         .message__time{}
 
-
 =================================================
+
+#6.32
+    property
+        order:0     flex의 자식요소들에게 적용하면 순서를 바꿀수있다. (부모가 flex여야함)
+    chatting.html 파일 수정
+        <div class="message-row message-row--own">
+    chatting.css 파일 수정
+        .message-row--own{}
+        .message-row--own .message__info{}
+        .message-row--own .message__time{}
+        .message-row--own .message__bubble{}
+
 =================================================
 =================================================
 =================================================
