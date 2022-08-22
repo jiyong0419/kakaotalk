@@ -674,6 +674,21 @@
         <body id="chat-screen">
 
 =================================================
+
+#6.29
+    alt-screen-header.css 파일 수정
+        .alt-header__column{}
+        .alt-header__column:nth-child(2){}
+        .alt-header__column:last-child{}
+        .alt-header__column:last-child .fa-search{}
+    chatting.html 파일 수정
+        <main class="main-screen chatting-screen">
+    chatting.css 파일 수정
+        #chat-screen .status-bar, #chat-screen .alt-header{}
+        #chat-screen .status-bar{}
+        #chat-screen .alt-header{}
+        .chatting-screen{}
+
 =================================================
 =================================================
 =================================================
