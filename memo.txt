@@ -661,6 +661,18 @@
         .alt-header__column:last-child{}
         
 =================================================
+
+#6.28
+    setting.html 파일 수정
+        <a href="more.html"><i class="fas fa-angle-left fa-3x"></i></a>
+        <div class="settings__setting-column">
+    setting.css 파일 수정
+        .settings__setting-column:last-child{}
+    chatting.css 파일 생성
+        #chat-screen{}
+    chatting.html 파일 생성
+        <body id="chat-screen">
+
 =================================================
 =================================================
 =================================================
