@@ -647,6 +647,19 @@
         .user-component__description i{}
 
 =================================================
+
+#6.27
+    setting.html 파일 생성
+        <header class="alt-header">
+    setting.css 파일 생성
+        .settings__setting{}
+        .settings__setting i{}
+    alt-screen-header.css 파일 생성
+        .alt-header{}
+        .alt-header__title{}
+        .alt-header__column{}
+        .alt-header__column:last-child{}
+        
 =================================================
 =================================================
 =================================================
