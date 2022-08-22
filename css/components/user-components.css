@@ -8,7 +8,7 @@
     align-items: center;
 }
 .user-component__column:last-child{
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--opacity);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -26,7 +26,7 @@
 .user-component__description{
     margin-top:8px;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--opacity);
 }
 .user-component__avatar--xl{
     width: 80px;
