@@ -30,3 +30,76 @@
     color: var(--opacity);
     padding: 50px 0px;
 }
+.open-chat{
+    margin-top: 20px;
+}
+.open-chat__header{
+    display: flex;
+    justify-content: space-between;
+    color: var(--opacity);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.open-chat__header h4{
+    font-weight: 600;
+}
+
+.open-chat__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: var(--border-line);
+}
+.open-chat__content__column__title{
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.open-chat__content__column__hashtags{
+    color:var(--opacity);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.open-chat__content__column__members{
+    display: flex;
+    align-items: center;
+    color: var(--opacity);
+}
+.open-chat__content__column__members__image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.open-chat__content__column__members__count{
+    font-weight: 600;
+    padding-right: 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2)
+}
+.open-chat__content__column__members__status{
+    color: darksalmon;
+    padding-left: 5px;
+}
+.open-chat__content__column__team-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.open-chat__content__column:nth-child(2){
+    position: relative;
+}
+.open-chat__content__column__like-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px 8px;
+    color: white;
+}

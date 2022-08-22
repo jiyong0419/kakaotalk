@@ -605,8 +605,27 @@
         .recommended-friends{}
         .recommended-friends__title{}
         .recommended-friends__content{}
-        
+
 =================================================
+
+#6.23~#6.24
+    find.html 파일 수정
+        <div class="open-chat">
+    find.css 파일 수정
+        .open-chat{}
+        .open-chat__header{}
+        .open-chat__header h4{}
+        .open-chat__content {}
+        .open-chat__content__column__title{}
+        .open-chat__content__column__hashtags{}
+        .open-chat__content__column__members{}
+        .open-chat__content__column__members__image {}
+        .open-chat__content__column__members__count{}
+        .open-chat__content__column__members__status{}
+        .open-chat__content__column__team-image {}
+        .open-chat__content__column:nth-child(2){}
+        .open-chat__content__column__like-btn{}
+
 =================================================
 =================================================
 =================================================
