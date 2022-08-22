@@ -10,6 +10,7 @@
 
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 body{
     font-family: 'Open Sans', sans-serif;
     color: #2e363e;
@@ -35,3 +36,15 @@ body{
     text-align: center;
 }
 
+.fa-cog {
+    position: relative;
+}
+.fa-cog div{
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 50%;
+    position: absolute;
+    right: -3px;
+    top: -6px;
+}

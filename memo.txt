@@ -580,8 +580,27 @@
         <span class="user-component__notification notification">
     user-component.css 파일 수정
         .user-component__time{}
+
 =================================================
+
+#6.21
+    find.html 파일 생성
+        <main class="main-screen">
+        header>div>span>i>div 추가
+    find.css 파일 생성
+        .find-icons{}    
+        .find-icons__icon{}
+        .find-icons__icon i {}
+        .find-icons__icon span{}
+    style.css 파일 수정
+        .fa-cog {}
+        .fa-cog div {}
+    
 =================================================
+
+#6.22
+
+
 =================================================
 =================================================
 =================================================
