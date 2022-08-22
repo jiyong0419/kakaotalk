@@ -28,6 +28,9 @@
     font-size: 17px;
     color: var(--opacity);
 }
+.user-component__description i{
+    color: tomato;
+}
 .user-component__avatar--xl{
     width: 80px;
     height: 80px;

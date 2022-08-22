@@ -627,6 +627,25 @@
         .open-chat__content__column__like-btn{}
 
 =================================================
+
+#6.25~#6.26
+    more.html 파일 생성
+        <main class="main-screen more-screen">
+    more.css 파일 생성
+        .suggestions{}
+        .suggestions__title{}
+        .suggestions__icons{}
+        .suggestions__icon{}
+        .suggestions__icon--image img{}
+        .suggestions__icon--text{}
+    icons.css 파일 생성
+        .icons{}
+        .icons__icon{}
+        .icons__icon i{}
+        .icons__icon span{}
+    user-componont.css 파일 수정
+        .user-component__description i{}
+
 =================================================
 =================================================
 =================================================
