@@ -24,6 +24,16 @@
     justify-content: space-between;
     color: var(--opacity)
 }
+@keyframes hideSplashScreen {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+}
 #splash-screen{
     background-color: var(--yellow);
     position: absolute;
@@ -34,4 +44,6 @@
     justify-content: center;
     align-items: center;
     font-size: 100px;
+    animation: hideSplashScreen 1.6s ease-in-out forwards;
+    animation-delay: 0.4s;
 }

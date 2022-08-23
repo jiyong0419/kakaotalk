@@ -751,6 +751,15 @@
         #splash=screen{}
 
 =================================================
+
+#6.35
+    friends.css 파일 수정
+        @keyframes hideSplashScreen {}
+        #splash-screen{
+            animation: hideSplashScreen 1.6s ease-in-out forwards;
+            animation-delay: 0.4s;
+        }
+
 =================================================
 =================================================
 =================================================
