@@ -826,3 +826,12 @@
 
 #7.0 
     git test
+
+=================================================        
+
+#7.1
+    Github에서 공짜로 Static 호스팅을 받기 (나의 웹사이트를 무료로 업로드하고 공짜URL을 제공받기 css,html,js만가능)
+    gh-pages 이름의 branch를 만든다
+    github/jiyong0419/kakaotalk 으로간다.
+    오른쪽 Enviroments에 github-pages를 클릭한다
+    View deployment를 클릭한다
