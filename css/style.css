@@ -9,6 +9,7 @@
 @import "components/user-components.css";
 @import "components/notification.css";
 @import "components/icons.css";
+@import "components/no-mobile.css";
 
 
 @import "screens/login.css";

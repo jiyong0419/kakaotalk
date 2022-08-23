@@ -814,3 +814,12 @@
         .reply:focus-within .reply__column:nth-child(2){}
 
 =================================================
+
+#6.39
+    friends.html 파일 수정
+        <div class="no-mobile">
+    no-mobile.css 파일 생성
+        .no-mobile{}
+        @media screen and (max-width:645px){}
+
+=================================================        
