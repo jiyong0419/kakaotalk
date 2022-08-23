@@ -724,6 +724,24 @@
         .message-row--own .message__bubble{}
 
 =================================================
+
+#6.33
+    chatting.html 파일 수정
+        <form action="" class="reply">
+    chatting.css 파일 수정
+        .reply{}
+        .reply__column:first-child{}
+        .reply__column:nth-child(2){}
+        .reply__column:nth-child(2) input{}
+        .reply i {}
+        .reply__column:nth-child(2) > i,
+            .reply__column:nth-child(2) button{}
+        .reply__column:nth-child(2)>i {}
+        .reply__column:nth-child(2) button{}
+        .reply__column:nth-child(2) button i{}
+        .reply__column:nth-child(2) button:focus,
+            .reply__column:nth-child(2) button:active{}
+
 =================================================
 =================================================
 =================================================
