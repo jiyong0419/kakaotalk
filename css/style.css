@@ -41,16 +41,3 @@ body{
     opacity: 0.7;
     text-align: center;
 }
-
-.fa-cog {
-    position: relative;
-}
-.fa-cog div{
-    width: 5px;
-    height: 5px;
-    background-color: tomato;
-    border-radius: 50%;
-    position: absolute;
-    right: -3px;
-    top: -6px;
-}

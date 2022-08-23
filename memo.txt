@@ -772,7 +772,17 @@
         .nav__btn:nth-child(3){}
         .nav__btn:last-child{}
         
-
 =================================================
+
+#6.37
+    find.css 파일 수정
+        @keyframes heartBeat {}
+        .open-chat__content__column__like-btn:hover i{}
+    screen-header.css 파일 수정
+        @keyframes spinCog {}
+        .screen-header__icons .fa-cog:hover{}
+    property
+        will-change     브라우저에게 css변화를 미리 알려줌(그래픽카드를 이용하여 애니메이션을 가속화해줌)
+
 =================================================
 =================================================

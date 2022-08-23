@@ -85,3 +85,20 @@
     padding: 5px 8px;
     color: white;
 }
+@keyframes heartBeat {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: scale(1.2);
+        color: tomato;
+    }
+    100%{
+        transform: none;
+        color: white;
+    }
+}
+.open-chat__content__column__like-btn:hover i{
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
